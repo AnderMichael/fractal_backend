@@ -21,3 +21,5 @@ app.get('/', (_req, res) => {
 app.listen(port, () => {
     console.log(`Backend server is running on port ${port}!`);
 });
+
+export default app;
